@@ -1,0 +1,37 @@
+{
+  "name": "fegq-test",
+  "version": "0.0.1",
+  "description": "this is a test package.",
+  "main": "./dist/mytest.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitguanqi/fegq-test.git"
+  },
+  "keywords": [
+    "fegq-test",
+    "test"
+  ],
+  "author": "gitguanqi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitguanqi/fegq-test/issues"
+  },
+  "homepage": "https://github.com/gitguanqi/fegq-test#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^27.4.2",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^8.3.0",
+    "jest": "^27.4.3",
+    "jquery": "^3.6.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
